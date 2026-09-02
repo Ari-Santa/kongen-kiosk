@@ -12,11 +12,14 @@ export default function Home() {
         className="object-contain"
       />
 
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col items-center gap-1 pb-10">
-        <p className="text-2xl font-light tracking-[0.35em] text-white/90 sm:text-3xl md:text-4xl">
-          KONG HARALD
+      <div className="pointer-events-none absolute inset-y-0 right-10 flex flex-col items-start justify-center gap-4 md:right-16 lg:right-24">
+        <p className="text-3xl font-light tracking-[0.35em] text-white/90 md:text-4xl lg:text-5xl">
+          KONG
         </p>
-        <span className="h-px w-24 bg-white/30" />
+        <span className="h-px w-16 bg-white/30" />
+        <p className="text-3xl font-light tracking-[0.35em] text-white/90 md:text-4xl lg:text-5xl">
+          HARALD
+        </p>
       </div>
     </main>
   );
