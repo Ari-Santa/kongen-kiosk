@@ -2,17 +2,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative flex h-dvh w-dvw items-center justify-center bg-black">
-      <Image
-        src="/kong-harald.webp"
-        alt="Kong Harald"
-        fill
-        priority
-        sizes="100vw"
-        className="object-contain"
-      />
+    <main className="flex h-dvh w-dvw items-center bg-black">
+      <div className="relative h-full flex-1">
+        <Image
+          src="/kong-harald.webp"
+          alt="Kong Harald"
+          fill
+          priority
+          sizes="50vw"
+          className="object-contain"
+        />
+      </div>
 
-      <div className="pointer-events-none absolute inset-y-0 right-10 flex flex-col items-start justify-center gap-4 md:right-16 lg:right-24">
+      <div className="flex flex-1 flex-col items-center justify-center gap-4 px-6">
         <p className="whitespace-nowrap text-xl font-light uppercase tracking-[0.2em] text-white/90 md:text-2xl lg:text-3xl">
           H.M. Kong Harald V
         </p>
